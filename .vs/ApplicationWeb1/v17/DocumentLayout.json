@@ -1,0 +1,205 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sebastian\\source\\repos\\ApplicationWeb1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sebastian\\source\\repos\\ApplicationWeb1\\README.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49CD79E5-92C5-4205-AEF7-5E9140CDBD8C}|ApplicationWeb1\\ApplicationWeb1.csproj|c:\\users\\sebastian\\source\\repos\\applicationweb1\\applicationweb1\\views\\home\\nuevo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49CD79E5-92C5-4205-AEF7-5E9140CDBD8C}|ApplicationWeb1\\ApplicationWeb1.csproj|solutionrelative:applicationweb1\\views\\home\\nuevo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49CD79E5-92C5-4205-AEF7-5E9140CDBD8C}|ApplicationWeb1\\ApplicationWeb1.csproj|c:\\users\\sebastian\\source\\repos\\applicationweb1\\applicationweb1\\controllers\\librocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49CD79E5-92C5-4205-AEF7-5E9140CDBD8C}|ApplicationWeb1\\ApplicationWeb1.csproj|solutionrelative:applicationweb1\\controllers\\librocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49CD79E5-92C5-4205-AEF7-5E9140CDBD8C}|ApplicationWeb1\\ApplicationWeb1.csproj|c:\\users\\sebastian\\source\\repos\\applicationweb1\\applicationweb1\\models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49CD79E5-92C5-4205-AEF7-5E9140CDBD8C}|ApplicationWeb1\\ApplicationWeb1.csproj|solutionrelative:applicationweb1\\models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49CD79E5-92C5-4205-AEF7-5E9140CDBD8C}|ApplicationWeb1\\ApplicationWeb1.csproj|c:\\users\\sebastian\\source\\repos\\applicationweb1\\applicationweb1\\views\\libro\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49CD79E5-92C5-4205-AEF7-5E9140CDBD8C}|ApplicationWeb1\\ApplicationWeb1.csproj|solutionrelative:applicationweb1\\views\\libro\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49CD79E5-92C5-4205-AEF7-5E9140CDBD8C}|ApplicationWeb1\\ApplicationWeb1.csproj|c:\\users\\sebastian\\source\\repos\\applicationweb1\\applicationweb1\\views\\libro\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49CD79E5-92C5-4205-AEF7-5E9140CDBD8C}|ApplicationWeb1\\ApplicationWeb1.csproj|solutionrelative:applicationweb1\\views\\libro\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49CD79E5-92C5-4205-AEF7-5E9140CDBD8C}|ApplicationWeb1\\ApplicationWeb1.csproj|c:\\users\\sebastian\\source\\repos\\applicationweb1\\applicationweb1\\views\\libro\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49CD79E5-92C5-4205-AEF7-5E9140CDBD8C}|ApplicationWeb1\\ApplicationWeb1.csproj|solutionrelative:applicationweb1\\views\\libro\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49CD79E5-92C5-4205-AEF7-5E9140CDBD8C}|ApplicationWeb1\\ApplicationWeb1.csproj|c:\\users\\sebastian\\source\\repos\\applicationweb1\\applicationweb1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49CD79E5-92C5-4205-AEF7-5E9140CDBD8C}|ApplicationWeb1\\ApplicationWeb1.csproj|solutionrelative:applicationweb1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49CD79E5-92C5-4205-AEF7-5E9140CDBD8C}|ApplicationWeb1\\ApplicationWeb1.csproj|c:\\users\\sebastian\\source\\repos\\applicationweb1\\applicationweb1\\views\\libro\\detalle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{49CD79E5-92C5-4205-AEF7-5E9140CDBD8C}|ApplicationWeb1\\ApplicationWeb1.csproj|solutionrelative:applicationweb1\\views\\libro\\detalle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49CD79E5-92C5-4205-AEF7-5E9140CDBD8C}|ApplicationWeb1\\ApplicationWeb1.csproj|c:\\users\\sebastian\\source\\repos\\applicationweb1\\applicationweb1\\wwwroot\\css\\estilos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{49CD79E5-92C5-4205-AEF7-5E9140CDBD8C}|ApplicationWeb1\\ApplicationWeb1.csproj|solutionrelative:applicationweb1\\wwwroot\\css\\estilos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "README.txt",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\source\\repos\\ApplicationWeb1\\README.txt",
+              "RelativeDocumentMoniker": "README.txt",
+              "ToolTip": "C:\\Users\\Sebastian\\source\\repos\\ApplicationWeb1\\README.txt",
+              "RelativeToolTip": "README.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-06-18T16:43:04.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Nuevo.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\source\\repos\\ApplicationWeb1\\ApplicationWeb1\\Views\\Home\\Nuevo.cshtml",
+              "RelativeDocumentMoniker": "ApplicationWeb1\\Views\\Home\\Nuevo.cshtml",
+              "ToolTip": "C:\\Users\\Sebastian\\source\\repos\\ApplicationWeb1\\ApplicationWeb1\\Views\\Home\\Nuevo.cshtml",
+              "RelativeToolTip": "ApplicationWeb1\\Views\\Home\\Nuevo.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T00:27:29.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\source\\repos\\ApplicationWeb1\\ApplicationWeb1\\Program.cs",
+              "RelativeDocumentMoniker": "ApplicationWeb1\\Program.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\source\\repos\\ApplicationWeb1\\ApplicationWeb1\\Program.cs",
+              "RelativeToolTip": "ApplicationWeb1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T14:19:42.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\source\\repos\\ApplicationWeb1\\ApplicationWeb1\\Views\\Libro\\Editar.cshtml",
+              "RelativeDocumentMoniker": "ApplicationWeb1\\Views\\Libro\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\Sebastian\\source\\repos\\ApplicationWeb1\\ApplicationWeb1\\Views\\Libro\\Editar.cshtml",
+              "RelativeToolTip": "ApplicationWeb1\\Views\\Libro\\Editar.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T14:04:39.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Libro.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\source\\repos\\ApplicationWeb1\\ApplicationWeb1\\Models\\Libro.cs",
+              "RelativeDocumentMoniker": "ApplicationWeb1\\Models\\Libro.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\source\\repos\\ApplicationWeb1\\ApplicationWeb1\\Models\\Libro.cs",
+              "RelativeToolTip": "ApplicationWeb1\\Models\\Libro.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAACOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T22:11:42.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\source\\repos\\ApplicationWeb1\\ApplicationWeb1\\Views\\Libro\\Index.cshtml",
+              "RelativeDocumentMoniker": "ApplicationWeb1\\Views\\Libro\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Sebastian\\source\\repos\\ApplicationWeb1\\ApplicationWeb1\\Views\\Libro\\Index.cshtml",
+              "RelativeToolTip": "ApplicationWeb1\\Views\\Libro\\Index.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAEMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-15T22:22:22.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Crear.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\source\\repos\\ApplicationWeb1\\ApplicationWeb1\\Views\\Libro\\Crear.cshtml",
+              "RelativeDocumentMoniker": "ApplicationWeb1\\Views\\Libro\\Crear.cshtml",
+              "ToolTip": "C:\\Users\\Sebastian\\source\\repos\\ApplicationWeb1\\ApplicationWeb1\\Views\\Libro\\Crear.cshtml",
+              "RelativeToolTip": "ApplicationWeb1\\Views\\Libro\\Crear.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T04:40:52.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LibroController.cs",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\source\\repos\\ApplicationWeb1\\ApplicationWeb1\\Controllers\\LibroController.cs",
+              "RelativeDocumentMoniker": "ApplicationWeb1\\Controllers\\LibroController.cs",
+              "ToolTip": "C:\\Users\\Sebastian\\source\\repos\\ApplicationWeb1\\ApplicationWeb1\\Controllers\\LibroController.cs",
+              "RelativeToolTip": "ApplicationWeb1\\Controllers\\LibroController.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAAwCAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T22:12:39.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "estilos.css",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\source\\repos\\ApplicationWeb1\\ApplicationWeb1\\wwwroot\\css\\estilos.css",
+              "RelativeDocumentMoniker": "ApplicationWeb1\\wwwroot\\css\\estilos.css",
+              "ToolTip": "C:\\Users\\Sebastian\\source\\repos\\ApplicationWeb1\\ApplicationWeb1\\wwwroot\\css\\estilos.css",
+              "RelativeToolTip": "ApplicationWeb1\\wwwroot\\css\\estilos.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-28T00:07:24.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Detalle.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sebastian\\source\\repos\\ApplicationWeb1\\ApplicationWeb1\\Views\\Libro\\Detalle.cshtml",
+              "RelativeDocumentMoniker": "ApplicationWeb1\\Views\\Libro\\Detalle.cshtml",
+              "ToolTip": "C:\\Users\\Sebastian\\source\\repos\\ApplicationWeb1\\ApplicationWeb1\\Views\\Libro\\Detalle.cshtml",
+              "RelativeToolTip": "ApplicationWeb1\\Views\\Libro\\Detalle.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-18T01:04:16.483Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

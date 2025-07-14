@@ -1,0 +1,45 @@
+﻿@model ApplicationWeb1.Models.Libro
+
+@if (ViewBag.Mensaje != null)
+{
+	<div class="alert alert-success">@ViewBag.Mensaje</div>
+}
+
+
+<!-- FORMULARIO  -->
+<form asp-action="Crear" method="post" class="p-4 border rounded shadow">
+
+	<!-- LISTA DESPLEGABLE -->
+	<div class="mb-3">
+		<label asp-for="autorId">Seleccione un autor</label>
+		<select asp-for="autorId" asp-items="@(new SelectList(ViewBag.Autores, "id","nombre"))" class=" form-select"></select>
+		<span asp-validation-for="autorId" class="text-danger"></span>
+	</div>
+	<div>
+		<label asp-for="titulo" class="form-label">Título</label>
+		<input asp-for="titulo" class="form-control">
+		<span asp-validation-for="titulo" class="text-danger"></span>
+	</div>
+
+	<div class="mb-3">
+		<label asp-for="anioPublicacion" class="form-label">Año de Publicación</label>
+		<input asp-for="anioPublicacion" class="form-control" />
+		<span asp-validation-for="anioPublicacion" class="text-danger"></span>	
+	</div>
+
+	<div class="mb-3">
+		<label for="urlImagen">URL de Portada</label>
+		<!-- <label asp-for="urlImagen"></label> -->
+		<input asp-for="urlImagen" class="form-control" />
+	</div>
+
+	<input value="Crear" type="submit" class="btn btn-success" />
+</form>
+
+
+<!-- boton que te manda al inicio -->
+<br />
+
+<a href="@Url.Action("Index", "Libro")" class="btn btn-primary mt-3"> Volver al Inicio </a>
+
+

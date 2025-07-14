@@ -1,0 +1,94 @@
+﻿@model List<ApplicationWeb1.Models.Libro>
+
+@section Styles {
+	<link rel="stylesheet" href="~/css/estilos.css" />
+}
+
+@{
+	ViewData["Title"] = "Detalle";
+}
+
+<div>
+	<h2>Catálogo de Libros</h2>
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Portada</th>
+				<th>Título</th>
+				<th>Año</th>
+				<th>Autor</th>
+			</tr>
+
+
+		</thead>
+		<tbody>
+
+			@foreach (var libro in Model)
+			{
+				<tr>
+					<td>
+						<!-- portada de los libros -->
+						<img src="@libro.urlImagen" alt="Portada de @libro.titulo" width="80" />
+
+					</td>
+
+					<!-- TR FILA y TD COLUMNA -->
+					<td> @libro.titulo </td>
+					<td> @libro.anioPublicacion </td>
+					<td> @libro.autor.nombre</td>
+
+					<!-- COLUMNA ver detalle-->
+					<td>
+						<a href="@Url.Action("Detalle", "Libro", new { id = libro.id })" class="btn btn-outline-info btn-sm"> Ver detalles</a>
+					</td>
+				</tr>
+			}
+
+		</tbody>
+	</table>
+
+
+</div>
+
+<div>
+	<!-- boton para crear libro -->
+	<a asp-controller="libro" asp-action="Crear" class="btn btn-primary" mt-3> Crear nuevo libro </a>
+
+	<br />
+
+	<!-- boton para cambiar el color del fondo (GRIS SILVER) -->
+	<button onclick="cambiarFondo()" class="btn btn-secondary mt-3">Color Silver</button>
+	<!-- script del boton -->
+	@section Scripts
+	{
+		<script>
+			function cambiarFondo()
+			{
+				var body = document.body;
+				body.style.backgroundColor = body.style.backgroundColor === "silver" ? "white" : "silver";
+
+			}
+		</script>
+	}
+
+	<!-- boton para cambiar el color del fondo (AZUL) -->
+	<button style="background-color: blue;" onclick="cambiarFondo2()" class="btn mt-3"> Color Azul</button>
+	<!-- script del boton -->
+	<script>
+		function cambiarFondo2()
+		{
+			var body = document.body;
+			body.style.backgroundColor = body.style.backgroundColor === "blue" ? "white" : "blue";
+		}
+	</script>
+	
+
+	
+	<!-- SEPARACION VACIA -->
+	<p></p>
+
+	<!-- boton que te manda al inicio -->
+	<a href="@Url.Action("Index", "Home")" class="btn btn-success"> Volver al Inicio </a>
+
+</div>
+

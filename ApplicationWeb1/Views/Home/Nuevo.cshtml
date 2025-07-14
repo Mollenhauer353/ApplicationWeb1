@@ -1,0 +1,75 @@
+﻿@{
+	ViewData["Title"] = "Pruebas";
+}
+
+<!-- PAGINA DE RELLENO / PRUEBAS -->
+<div class="text-center">
+    <h1 class="display-4">Hola</h1>
+	<p>Bienvenido, este es un sitio de pruebas</p>
+</div>
+
+<div>
+	<br> <!-- SALTO DE LINEA -->
+	<font arial> <u>Falso formulario con validacion</u> </font>
+	<div>
+		<form method="get" value="">
+			<!-- FALSO FORMULARIO + VALIDACION -->
+			<fieldset>
+				<legend> Informacion de Persona </legend>
+				Nombre:
+				<input type="text" name="nom" value="" required>
+				<br>
+				Apellido:
+				<input type="text" name="ape" value="" required>
+				<br>
+				Edad:
+				<input type="number" name="edad" value="" required>
+				<br>
+				Direccion:
+				<input type="text" name="direc" value="" required>
+				<br>
+				Número:
+				<input type="number" name="num" value="" required>
+				<br>
+				Ciudad:
+				<input type="text" name="ciud" value="" required>
+				<br>
+			</fieldset>
+				<br>
+			<input type="submit" value="Enviar">
+		</form>
+	</div>
+	<br> 
+	<!-- liniea de separacion -->
+	<hr>
+
+	
+	<!-- caja con redireccionamiento en imagenes -->
+	<div class="texto-central" align="center">
+		<p>
+			<h3 class="display-4">Redes sociales</h3>
+			<a href="https://www.instagram.com/seba.mollenhauer">
+				<img border="1" alt="instagram" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/960px-Instagram_logo_2022.svg.png" width="50" height="50">
+			</a>
+
+			<a href="http://api.whatsapp.com/send?phone=5491138656194">
+				<img border="1" alt="wasap" src="https://1.bp.blogspot.com/-9dAQ17vFTC4/X06TmPrrmdI/AAAAAAAAAFc/vKblYxjhGqMfoeK1SGOapp8aN9LZ2iyLQCLcBGAsYHQ/s1163/wsp.png" width="50" height="50">
+			</a>
+
+		</p>
+	</div>
+	<br />
+	<div align="center">
+		<font arial 50px>Radio Continental</font>
+		<br />
+			<video controls="" name="media"> <source src="https://edge01.radiohdvivo.com/stream/continental" type="audio/mpeg">
+			</video>
+	</div>
+
+	<br />
+	<!-- boton que te manda al inicio -->
+	<a href="@Url.Action("Index", "Home")" class="btn btn-secondary mt-3"> Volver al Inicio </a>
+	<br />
+
+	<!-- COMENTARIOS -->
+</div>

@@ -1,0 +1,40 @@
+﻿@model ApplicationWeb1.Models.Libro
+
+@{
+	ViewData["Title"] = "Detalle";
+}
+
+@if(TempData["Mensaje"] != null)
+{
+	<div class="alert alert-success">
+		@TempData["Mensaje"]
+	</div>
+}
+
+
+<div class="card p-3">
+	<h4>@Model.titulo</h4>
+	<p><strong>Año de publicacion:</strong> @Model.anioPublicacion</p>
+	<p><strong>Autor:</strong> @Model.autor.nombre</p>
+</div>
+
+<br />
+<!-- BOTON EDITAR -->
+<a asp-action="Editar" asp-route-id="@Model.id" class="btn btn-warning">
+	<i class="bi bi-pencil"></i> Editar
+</a>
+<!-- MENSAJE POP UP -->
+@if (TempData["¡Exito!"] != null)
+{
+	<div class="alert alert-success">
+		@TempData["¡Exito!"]
+	</div>
+}
+
+<br />
+<!-- boton que te manda a LIBRO -->
+<a href="@Url.Action("Index", "Libro")" class="btn btn-secondary mt-3"> Volver al Libro </a>
+
+
+
+
